@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Commoncloset">
+      <UniqueIdentifier>{30f036f1-a487-45cf-b5a4-a7d182f1bf65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Usercloset">
+      <UniqueIdentifier>{3c63a382-13c7-49d0-aa3b-eef638e36f5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="insert_member.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="login.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="after_login.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_member.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="recommend.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_remove_clothes.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_FindUserStyles.c">
+      <Filter>소스 파일\Usercloset</Filter>
+    </ClCompile>
+    <ClCompile Include="_FindCommonDirectory.c">
+      <Filter>소스 파일\Commoncloset</Filter>
+    </ClCompile>
+    <ClCompile Include="_saveclothes.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Formal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sport.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Make_Clothes_File.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove_Clothes_File.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Make_User_Direct_Sport.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Make_User_Direct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Make_User_Direct_Formal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Make_User_Direct_Casual.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_ReadcommonFile.c">
+      <Filter>소스 파일\Commoncloset</Filter>
+    </ClCompile>
+    <ClCompile Include="_ReadUserFile.c">
+      <Filter>소스 파일\Usercloset</Filter>
+    </ClCompile>
+    <ClCompile Include="Casual.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="wchar_tTOchar.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_user_direct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="charTowchar_t.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="engTokor.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="func.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
